@@ -1,0 +1,9 @@
+import numpy as np
+sales_data = np.array([
+    [10, 250, 2500],
+    [5, 300, 1500],
+    [8, 200, 1600]
+])
+unit_prices = sales_data[:, 1]
+average_price = np.mean(unit_prices)
+print("Average unit price of products sold:", average_price)
